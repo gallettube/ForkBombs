@@ -2,14 +2,14 @@ http://rextester.com
 
 Puedes probar las siguientes bombas
   
-#python 2.7.12
+python 2.7.12
 
 import os
 n = raw_input("Please enter 'hello':")
 while n.strip() != 'hello':
     n = raw_input("Please enter 'hello':")
     
-#Java
+Java
 //Compiler version 1.8.0_111
 
 import java.util.*;
@@ -31,7 +31,7 @@ class Rextester
 }
 
 
-#C#
+C#
 
 using System;
 using System.Collections.Generic;
