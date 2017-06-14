@@ -1,0 +1,56 @@
+http://rextester.com
+
+Puedes probar las siguientes bombas
+  
+#python 2.7.12
+
+import os
+n = raw_input("Please enter 'hello':")
+while n.strip() != 'hello':
+    n = raw_input("Please enter 'hello':")
+    
+#Java
+//Compiler version 1.8.0_111
+
+import java.util.*;
+import java.lang.*;
+import static java.lang.System.*;
+
+class Rextester
+{  
+    public static void main(String args[])
+    {
+        bucle();
+    }
+    
+    public static void bucle()
+    {
+       System.out.println("bomba fork");
+       bucle();
+    }
+}
+
+
+#C#
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Rextester
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            fork();
+        }
+        public static void fork()
+        {
+            while(true){
+                fork(); 
+            }
+        }
+    }
+}
